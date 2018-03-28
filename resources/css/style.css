@@ -80,14 +80,48 @@ ul{
   width:auto;
   display:flex;
   justify-content: center;
+  align-items: center;
 }
 .imagebox img{
   height:100%;
   width:auto;
+}
+.imagebox .glasses{
+  width:auto;
+  height:50%;
 }
 .name{
   padding:0.5rem 0;
   display:flex;
   justify-content: center;
   background-color: black;
+}
+.content{
+  padding-top: 3rem;
+  display:flex;
+  justify-content: space-between;
+}
+.locationhours{
+  width:35%;
+}
+.locationhoursbox{
+  padding:1rem 2rem;
+  background-color: black;
+}
+.locationnumber{
+  color:black;
+  margin:0.2rem 0;
+}
+.secondrow{
+  padding-bottom: 4rem;
+}
+
+.footerbox{
+  background-color: black;
+  background-size: cover;
+  padding: 5rem 0;
+}
+.footerbox .sitecontainer{
+  display:flex;
+  align-items: center;
 }
